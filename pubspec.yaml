@@ -1,6 +1,6 @@
 name: adaptive_layout_manager
 description: A Flutter package for adaptive layouts, font scaling, and responsive widgets across platforms.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/iameerhamza/adaptive_layout_manager
 
 environment:

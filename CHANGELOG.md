@@ -12,3 +12,7 @@
 - Added `AdaptivePadding` for dynamic padding.
 - Added `ResponsiveUtilities` for breakpoint handling.
 - Added `AdaptiveGridView` for responsive grid layouts.
+
+## [1.0.1] - 2024-11-11
+### Added
+- added example
