@@ -23,7 +23,8 @@ class AdaptivePadding extends StatelessWidget {
   EdgeInsets _getPadding(BuildContext context) {
     if (ResponsiveUtilities.isLargeScreen(context) && largePadding != null) {
       return largePadding!;
-    } else if (ResponsiveUtilities.isMediumScreen(context) && mediumPadding != null) {
+    } else if (ResponsiveUtilities.isMediumScreen(context) &&
+        mediumPadding != null) {
       return mediumPadding!;
     } else if (smallPadding != null) {
       return smallPadding!;

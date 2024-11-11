@@ -6,11 +6,11 @@ class AdaptiveText extends StatelessWidget {
   final TextStyle? style;
 
   const AdaptiveText(
-      this.text, {
-        this.baseFontSize = 16,
-        this.style,
-        super.key,
-      });
+    this.text, {
+    this.baseFontSize = 16,
+    this.style,
+    super.key,
+  });
 
   double _getAdaptiveFontSize(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;

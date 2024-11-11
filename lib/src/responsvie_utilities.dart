@@ -7,7 +7,7 @@ class ResponsiveUtilities {
 
   static bool isMediumScreen(BuildContext context) =>
       MediaQuery.of(context).size.width >= Breakpoints.small &&
-          MediaQuery.of(context).size.width < Breakpoints.medium;
+      MediaQuery.of(context).size.width < Breakpoints.medium;
 
   static bool isLargeScreen(BuildContext context) =>
       MediaQuery.of(context).size.width >= Breakpoints.medium;

@@ -20,8 +20,8 @@ class AdaptiveGridView extends StatelessWidget {
     int gridCount = ResponsiveUtilities.isLargeScreen(context)
         ? largeGridCount.toInt()
         : ResponsiveUtilities.isMediumScreen(context)
-        ? mediumGridCount.toInt()
-        : smallGridCount.toInt();
+            ? mediumGridCount.toInt()
+            : smallGridCount.toInt();
 
     return GridView.count(
       crossAxisCount: gridCount,

@@ -4,9 +4,10 @@ import 'package:adaptive_layout_manager/src/adaptive_padding.dart';
 
 void main() {
   group('AdaptivePadding Tests', () {
-    testWidgets('Applies small padding on small screens', (WidgetTester tester) async {
-      tester.binding.window.physicalSizeTestValue = const Size(400, 800);
-      tester.binding.window.devicePixelRatioTestValue = 1.0;
+    testWidgets('Applies small padding on small screens',
+        (WidgetTester tester) async {
+          tester.view.physicalSize = const Size(400, 800);
+          tester.view.devicePixelRatio = 1.0;
 
       await tester.pumpWidget(const MaterialApp(
         home: Scaffold(
